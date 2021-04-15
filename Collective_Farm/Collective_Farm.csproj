@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Collective_Farm</RootNamespace>
+    <AssemblyName>Collective_Farm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Mag1cwind0w-O-Sunny-Day-Osd-flower.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization.Designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auto.Designer.cs">
+      <DependentUpon>Auto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auto_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auto_T.Designer.cs">
+      <DependentUpon>Auto_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Avans_Pay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avans_Pay.Designer.cs">
+      <DependentUpon>Avans_Pay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Avans_Pay_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avans_Pay_T.Designer.cs">
+      <DependentUpon>Avans_Pay_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document.Designer.cs">
+      <DependentUpon>Document.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dogovor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dogovor.Designer.cs">
+      <DependentUpon>Dogovor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dogovor_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dogovor_T.Designer.cs">
+      <DependentUpon>Dogovor_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraficUrojai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraficUrojai.Designer.cs">
+      <DependentUpon>GraficUrojai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graf_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graf_Work.Designer.cs">
+      <DependentUpon>Graf_Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graf_Work_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graf_Work_T.Designer.cs">
+      <DependentUpon>Graf_Work_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kult.Designer.cs">
+      <DependentUpon>Kult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organization.Designer.cs">
+      <DependentUpon>Organization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organiz_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organiz_T.Designer.cs">
+      <DependentUpon>Organiz_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanHoz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanHoz.Designer.cs">
+      <DependentUpon>PlanHoz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_Sev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_Sev.Designer.cs">
+      <DependentUpon>P_Sev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_Sev_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_Sev_T.Designer.cs">
+      <DependentUpon>P_Sev_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sites.Designer.cs">
+      <DependentUpon>Sites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Data.Designer.cs">
+      <DependentUpon>User_Data.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auto.resx">
+      <DependentUpon>Auto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auto_T.resx">
+      <DependentUpon>Auto_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avans_Pay.resx">
+      <DependentUpon>Avans_Pay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avans_Pay_T.resx">
+      <DependentUpon>Avans_Pay_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document.resx">
+      <DependentUpon>Document.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dogovor.resx">
+      <DependentUpon>Dogovor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dogovor_T.resx">
+      <DependentUpon>Dogovor_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraficUrojai.resx">
+      <DependentUpon>GraficUrojai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graf_Work.resx">
+      <DependentUpon>Graf_Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graf_Work_T.resx">
+      <DependentUpon>Graf_Work_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kult.resx">
+      <DependentUpon>Kult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organization.resx">
+      <DependentUpon>Organization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organiz_T.resx">
+      <DependentUpon>Organiz_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanHoz.resx">
+      <DependentUpon>PlanHoz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="P_Sev.resx">
+      <DependentUpon>P_Sev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_Sev_T.resx">
+      <DependentUpon>P_Sev_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sites.resx">
+      <DependentUpon>Sites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Data.resx">
+      <DependentUpon>User_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\icon\Custom-Icon-Design-Flatastic-4-User-blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\picture\pass_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mag1cwind0w-O-Sunny-Day-Osd-flower.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

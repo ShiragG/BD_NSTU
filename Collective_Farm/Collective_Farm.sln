@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collective_Farm", "Collective_Farm.csproj", "{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD75858-1ABB-4794-A0DA-9161A8CA8A61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19531FB8-CF0B-421D-AF80-79475174A631}
+	EndGlobalSection
+EndGlobal

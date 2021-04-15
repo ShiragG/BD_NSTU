@@ -1,0 +1,11 @@
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\bin\Debug\Collective_Farm-Admin.exe.config
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\bin\Debug\Collective_Farm-Admin.exe
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\bin\Debug\Collective_Farm-Admin.pdb
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm-Admin.csprojAssemblyReference.cache
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm_Admin.Properties.Resources.resources
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm-Admin.csproj.GenerateResource.cache
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm-Admin.exe
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm-Admin.pdb
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm_Admin.Authorization.resources
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm_Admin.Table.resources
+D:\Projects\VS_repos\RGR_BD\Collective_Farm-Admin\obj\Debug\Collective_Farm_Admin.AddUser.resources
